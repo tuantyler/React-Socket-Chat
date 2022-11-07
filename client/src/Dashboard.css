@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+:root {
+  --primarycolor: #0D6EFD; 
+  --secondarycolor: #6C757D; 
+  --successcolor: #198754; 
+  --bgcolor: #000000; 
+}
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited, .bg-primary, .active {
+  background-color: var(--primarycolor) !important;
+  border: none;
+}
+
+.btn-success, .btn-success:hover, .btn-success:active, .btn-success:visited, .bg-success {
+  background-color: var(--successcolor) !important;
+  border: none;
+}
+
+.btn-secondary, .btn-secondary:hover, .btn-secondary:active, .btn-secondary:visited, .bg-secondary {
+  background-color: var(--secondarycolor) !important;
+  border: none;
+}
+* {
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  background: var(--bgcolor) !important;
+}
+.list-group-item {
+  background: none;
+  color: white;
+  border: none;
+}
+.menusidebar {
+  width: 70px;
+  border-right: 1px solid #222222;
+}
+.menusidebar_item {
+  background: #2B2B2B; 
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 10px;
+  border-radius: 15px;
+}
+.menusidebar_item:last-child {
+  margin-bottom: 20px;
+}
+.menusidebar_item:nth-last-child(2) {
+  margin-top: auto;
+}
+.menusidebar_item i {
+  font-size: 18px;
+  color: white;
+}
+.menusidebar_item.active {
+  background: white !important;
+}
+.menusidebar_item.active i {
+  color: black;
+}
+.chatsidebar {
+  margin-left: 70px;
+  width: 310px;
+  border-right: 1px solid #222222;
+}
+.chatsidebar .header {
+  font-weight: 700;
+  font-size: 24px;
+  padding-top: 15px;
+}
+.chatsidebar button {
+  border-radius: 5px;
+}
+.userCred {
+  background: #131313; 
+  height: 50px;
+  color: white;
+  margin-top: auto;
+  margin-bottom: 17px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.chat_section {
+  margin-left: 380px;
+}
+.chat_interaction {
+  background: #131313; 
+  margin-top: auto;
+  margin-bottom: 20px;
+}
+.chat_interaction .form-control {
+  border: none;
+  color: white;
+  background: #2B2B2B; 
+}
+::-webkit-scrollbar
+{
+  width: 8px;
+  background-color: #2D2D2D;
+}
+::-webkit-scrollbar-thumb
+{
+  background-color: #9F9F9F;
+}
+
+.alert-dark {
+  border: none;
+  color: white;
+  background: #2B2B2B; 
+}
